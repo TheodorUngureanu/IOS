@@ -12,6 +12,7 @@
 		B65F13C922E739B60059045A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65F13C722E739B60059045A /* Main.storyboard */; };
 		B65F13CB22E739B80059045A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65F13CA22E739B80059045A /* Assets.xcassets */; };
 		B65F13CE22E739B80059045A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65F13CC22E739B80059045A /* LaunchScreen.storyboard */; };
+		B66E9153234D018A0047A6A5 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E9152234D018A0047A6A5 /* playsoundsviewcontroller-audio.swift */; };
 		B6D54865234B71C300A89369 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D54864234B71C300A89369 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		B65F13CA22E739B80059045A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65F13CD22E739B80059045A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65F13CF22E739B80059045A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66E9152234D018A0047A6A5 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		B6D54864234B71C300A89369 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				B65F13CC22E739B80059045A /* LaunchScreen.storyboard */,
 				B65F13CF22E739B80059045A /* Info.plist */,
 				B6D54864234B71C300A89369 /* PlaySoundsViewController.swift */,
+				B66E9152234D018A0047A6A5 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = SoundEfect;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				B65F13C622E739B60059045A /* RecordSoundsViewController.swift in Sources */,
 				B6D54865234B71C300A89369 /* PlaySoundsViewController.swift in Sources */,
 				B65F13C422E739B60059045A /* AppDelegate.swift in Sources */,
+				B66E9153234D018A0047A6A5 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X68FVNW648;
 				INFOPLIST_FILE = SoundEfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X68FVNW648;
 				INFOPLIST_FILE = SoundEfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
